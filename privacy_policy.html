@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인정보 처리방침 - 할일뭐였지?</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #FF8C00;
+            border-bottom: 3px solid #FF8C00;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #FF8C00;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #666;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .update-date {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #FFF3E0;
+            padding: 15px;
+            border-left: 4px solid #FF8C00;
+            margin: 20px 0;
+        }
+        a {
+            color: #FF8C00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switch a {
+            margin-left: 10px;
+            padding: 5px 10px;
+            background: #FF8C00;
+            color: white;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="#ko">한국어</a>
+            <a href="#en">English</a>
+        </div>
+
+        <div id="ko">
+            <h1>개인정보 처리방침</h1>
+            <p class="update-date">최종 수정일: 2025년 11월 4일</p>
+
+            <h2>1. 개요</h2>
+            <p>할일뭐였지? (Whattodo, 이하 "본 앱")는 사용자의 개인정보를 중요하게 생각하며, 개인정보 보호법 및 관련 법령을 준수하고 있습니다. 본 개인정보처리방침은 본 앱이 수집하는 정보, 사용 목적, 보관 방법에 대해 설명합니다.</p>
+
+            <h2>2. 수집하는 개인정보</h2>
+
+            <h3>2.1 할일 데이터</h3>
+            <ul>
+                <li><strong>수집 항목:</strong> 사용자가 입력한 할일 제목, 카테고리, 마감일, 반복 설정</li>
+                <li><strong>수집 목적:</strong> 할일 관리 서비스 제공</li>
+                <li><strong>저장 위치:</strong> 사용자 기기 내부 저장소 (SharedPreferences)</li>
+                <li><strong>외부 전송:</strong> 없음 (모든 데이터는 기기 내부에만 저장됨)</li>
+            </ul>
+
+            <h3>2.2 캘린더 데이터</h3>
+            <ul>
+                <li><strong>수집 항목:</strong> 기기의 캘린더 일정 정보 (제목, 날짜, 시간)</li>
+                <li><strong>수집 목적:</strong> 오늘과 내일의 일정을 잠금화면에 표시</li>
+                <li><strong>접근 방법:</strong> Android 캘린더 권한 (READ_CALENDAR)</li>
+                <li><strong>저장:</strong> 일시적으로 메모리에만 로드되며, 별도로 저장하지 않음</li>
+                <li><strong>외부 전송:</strong> 없음</li>
+            </ul>
+
+            <h3>2.3 앱 설정 정보</h3>
+            <ul>
+                <li><strong>수집 항목:</strong> 테마 설정, 폰트 크기, 언어 설정 등</li>
+                <li><strong>수집 목적:</strong> 사용자 맞춤 환경 제공</li>
+                <li><strong>저장 위치:</strong> 기기 내부 저장소 (SharedPreferences)</li>
+                <li><strong>외부 전송:</strong> 없음</li>
+            </ul>
+
+            <h3>2.4 광고 식별자</h3>
+            <ul>
+                <li><strong>수집 항목:</strong> Google 광고 ID (익명)</li>
+                <li><strong>수집 목적:</strong> 개인 맞춤형 광고 제공</li>
+                <li><strong>처리 주체:</strong> Google AdMob</li>
+                <li><strong>관련 정책:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google 개인정보처리방침</a></li>
+            </ul>
+
+            <h2>3. 개인정보의 사용</h2>
+            <p>수집된 정보는 다음의 목적으로만 사용됩니다:</p>
+            <ul>
+                <li>할일 관리 기능 제공</li>
+                <li>캘린더 일정 표시</li>
+                <li>사용자 맞춤 설정 유지</li>
+                <li>앱 내 광고 표시 (AdMob)</li>
+                <li>서비스 개선 및 버그 수정</li>
+            </ul>
+
+            <h2>4. 개인정보의 보관 및 파기</h2>
+
+            <h3>4.1 보관 기간</h3>
+            <ul>
+                <li><strong>할일 데이터:</strong> 사용자가 삭제할 때까지 또는 앱 삭제 시까지</li>
+                <li><strong>앱 설정:</strong> 앱 삭제 시까지</li>
+                <li><strong>캘린더 데이터:</strong> 별도 저장하지 않음 (임시 로드만)</li>
+            </ul>
+
+            <h3>4.2 파기 방법</h3>
+            <ul>
+                <li>앱 삭제 시 모든 데이터가 자동으로 삭제됩니다</li>
+                <li>설정에서 "설정 초기화" 기능으로 앱 설정 데이터를 초기화할 수 있습니다</li>
+            </ul>
+
+            <h2>5. 개인정보의 제3자 제공</h2>
+            <p>본 앱은 사용자의 개인정보를 외부에 전송하거나 제3자에게 제공하지 않습니다. 단, 다음의 경우는 예외입니다:</p>
+
+            <h3>5.1 Google AdMob</h3>
+            <ul>
+                <li><strong>제공 목적:</strong> 광고 표시</li>
+                <li><strong>제공 항목:</strong> 광고 식별자 (익명)</li>
+                <li><strong>제공 받는 자:</strong> Google LLC</li>
+                <li><strong>관련 정책:</strong> <a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob 개인정보처리방침</a></li>
+            </ul>
+
+            <h2>6. 사용자 권리</h2>
+            <p>사용자는 언제든지 다음의 권리를 행사할 수 있습니다:</p>
+            <ul>
+                <li><strong>열람 권리:</strong> 앱 내에서 본인의 할일 데이터를 확인할 수 있습니다</li>
+                <li><strong>수정 권리:</strong> 할일 데이터를 자유롭게 수정할 수 있습니다</li>
+                <li><strong>삭제 권리:</strong> 할일 데이터를 삭제하거나 앱을 삭제할 수 있습니다</li>
+                <li><strong>처리 정지 권리:</strong> 앱 삭제 또는 권한 철회로 데이터 처리를 중단할 수 있습니다</li>
+            </ul>
+
+            <h2>7. 권한 사용 안내</h2>
+
+            <h3>7.1 필수 권한</h3>
+            <ul>
+                <li><strong>접근성 서비스 (BIND_ACCESSIBILITY_SERVICE)</strong>
+                    <ul>
+                        <li>목적: 잠금화면 대체 기능 제공</li>
+                        <li>수집 데이터: 없음 (기능만 사용)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>7.2 선택 권한</h3>
+            <ul>
+                <li><strong>캘린더 읽기 (READ_CALENDAR)</strong>
+                    <ul>
+                        <li>목적: 오늘과 내일의 일정 표시</li>
+                        <li>거부 시: 캘린더 기능 사용 불가 (앱의 다른 기능은 정상 작동)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>8. 아동의 개인정보 보호</h2>
+            <p>본 앱은 만 14세 미만 아동을 대상으로 하지 않으며, 고의로 아동의 개인정보를 수집하지 않습니다.</p>
+
+            <h2>9. 개인정보 보호책임자</h2>
+            <div class="contact">
+                <p><strong>책임자:</strong> 윤유식 (개인 개발자)</p>
+                <p><strong>문의처:</strong> <a href="mailto:ys4yune@gmail.com">ys4yune@gmail.com</a></p>
+            </div>
+
+            <h2>10. 개인정보처리방침 변경</h2>
+            <p>본 개인정보처리방침은 법령 및 정책 변경, 서비스 개선에 따라 변경될 수 있습니다. 변경 시 앱 내 공지사항 또는 업데이트 노트를 통해 안내드립니다.</p>
+
+            <h2>11. 데이터 보안</h2>
+            <p>본 앱은 사용자 데이터 보호를 위해 다음의 보안 조치를 취하고 있습니다:</p>
+            <ul>
+                <li>모든 데이터는 기기 내부에만 저장</li>
+                <li>Android 샌드박스 보안 모델 적용</li>
+                <li>외부 서버로 데이터 전송 없음</li>
+                <li>정기적인 보안 업데이트</li>
+            </ul>
+
+            <h2>12. 데이터 이전</h2>
+            <p>본 앱은 사용자의 개인정보를 해외로 이전하지 않습니다. (단, Google AdMob의 광고 ID는 Google의 정책에 따라 처리됩니다)</p>
+
+            <div class="highlight">
+                <strong>본 개인정보처리방침은 2025년 11월 4일부터 적용됩니다.</strong><br>
+                문의사항이 있으시면 <a href="mailto:ys4yune@gmail.com">ys4yune@gmail.com</a>으로 연락 주시기 바랍니다.
+            </div>
+        </div>
+
+        <hr style="margin: 60px 0;">
+
+        <div id="en">
+            <h1>Privacy Policy</h1>
+            <p class="update-date">Last Updated: November 4, 2025</p>
+
+            <h2>1. Overview</h2>
+            <p>Whattodo (hereinafter referred to as "the App") values your privacy and complies with personal information protection laws and related regulations. This Privacy Policy explains what information the App collects, its purpose of use, and how it is stored.</p>
+
+            <h2>2. Information We Collect</h2>
+
+            <h3>2.1 To-Do Data</h3>
+            <ul>
+                <li><strong>Collected Items:</strong> To-do titles, categories, due dates, and repeat settings entered by users</li>
+                <li><strong>Purpose:</strong> Providing to-do management services</li>
+                <li><strong>Storage Location:</strong> Device internal storage (SharedPreferences)</li>
+                <li><strong>External Transfer:</strong> None (all data is stored only on the device)</li>
+            </ul>
+
+            <h3>2.2 Calendar Data</h3>
+            <ul>
+                <li><strong>Collected Items:</strong> Calendar event information (title, date, time)</li>
+                <li><strong>Purpose:</strong> Displaying today's and tomorrow's events on the lock screen</li>
+                <li><strong>Access Method:</strong> Android Calendar permission (READ_CALENDAR)</li>
+                <li><strong>Storage:</strong> Temporarily loaded in memory only, not stored separately</li>
+                <li><strong>External Transfer:</strong> None</li>
+            </ul>
+
+            <h3>2.3 App Settings</h3>
+            <ul>
+                <li><strong>Collected Items:</strong> Theme settings, font size, language settings, etc.</li>
+                <li><strong>Purpose:</strong> Providing personalized user experience</li>
+                <li><strong>Storage Location:</strong> Device internal storage (SharedPreferences)</li>
+                <li><strong>External Transfer:</strong> None</li>
+            </ul>
+
+            <h3>2.4 Advertising Identifier</h3>
+            <ul>
+                <li><strong>Collected Items:</strong> Google Advertising ID (anonymous)</li>
+                <li><strong>Purpose:</strong> Providing personalized advertisements</li>
+                <li><strong>Processor:</strong> Google AdMob</li>
+                <li><strong>Related Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+            </ul>
+
+            <h2>3. Use of Personal Information</h2>
+            <p>Collected information is used only for the following purposes:</p>
+            <ul>
+                <li>Providing to-do management features</li>
+                <li>Displaying calendar events</li>
+                <li>Maintaining user preferences</li>
+                <li>Displaying in-app advertisements (AdMob)</li>
+                <li>Service improvement and bug fixes</li>
+            </ul>
+
+            <h2>4. Retention and Disposal of Personal Information</h2>
+
+            <h3>4.1 Retention Period</h3>
+            <ul>
+                <li><strong>To-Do Data:</strong> Until deleted by user or app uninstallation</li>
+                <li><strong>App Settings:</strong> Until app uninstallation</li>
+                <li><strong>Calendar Data:</strong> Not stored separately (temporary load only)</li>
+            </ul>
+
+            <h3>4.2 Disposal Method</h3>
+            <ul>
+                <li>All data is automatically deleted when the app is uninstalled</li>
+                <li>App settings data can be reset using the "Reset Settings" feature in Settings</li>
+            </ul>
+
+            <h2>5. Third-Party Sharing</h2>
+            <p>The App does not transfer or share user personal information with third parties, except in the following cases:</p>
+
+            <h3>5.1 Google AdMob</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Displaying advertisements</li>
+                <li><strong>Shared Items:</strong> Advertising identifier (anonymous)</li>
+                <li><strong>Recipient:</strong> Google LLC</li>
+                <li><strong>Related Policy:</strong> <a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob Privacy Policy</a></li>
+            </ul>
+
+            <h2>6. User Rights</h2>
+            <p>Users can exercise the following rights at any time:</p>
+            <ul>
+                <li><strong>Right to Access:</strong> View your to-do data within the app</li>
+                <li><strong>Right to Modify:</strong> Freely modify to-do data</li>
+                <li><strong>Right to Delete:</strong> Delete to-do data or uninstall the app</li>
+                <li><strong>Right to Stop Processing:</strong> Stop data processing by uninstalling the app or revoking permissions</li>
+            </ul>
+
+            <h2>7. Permission Usage</h2>
+
+            <h3>7.1 Required Permissions</h3>
+            <ul>
+                <li><strong>Accessibility Service (BIND_ACCESSIBILITY_SERVICE)</strong>
+                    <ul>
+                        <li>Purpose: Providing lock screen alternative functionality</li>
+                        <li>Data Collection: None (function use only)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>7.2 Optional Permissions</h3>
+            <ul>
+                <li><strong>Calendar Read (READ_CALENDAR)</strong>
+                    <ul>
+                        <li>Purpose: Displaying today's and tomorrow's events</li>
+                        <li>If Denied: Calendar feature unavailable (other app features work normally)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>8. Children's Privacy</h2>
+            <p>The App is not intended for children under the age of 14 and does not knowingly collect personal information from children.</p>
+
+            <h2>9. Privacy Officer</h2>
+            <div class="contact">
+                <p><strong>Officer:</strong> Yoonsik Yoon (Individual Developer)</p>
+                <p><strong>Contact:</strong> <a href="mailto:ys4yune@gmail.com">ys4yune@gmail.com</a></p>
+            </div>
+
+            <h2>10. Changes to Privacy Policy</h2>
+            <p>This Privacy Policy may be changed due to changes in laws, policies, or service improvements. Changes will be announced through in-app notifications or update notes.</p>
+
+            <h2>11. Data Security</h2>
+            <p>The App takes the following security measures to protect user data:</p>
+            <ul>
+                <li>All data is stored only on the device</li>
+                <li>Android sandbox security model applied</li>
+                <li>No data transmission to external servers</li>
+                <li>Regular security updates</li>
+            </ul>
+
+            <h2>12. International Data Transfer</h2>
+            <p>The App does not transfer user personal information internationally. (However, Advertising ID from Google AdMob is processed according to Google's policies)</p>
+
+            <div class="highlight">
+                <strong>This Privacy Policy is effective from November 4, 2025.</strong><br>
+                If you have any questions, please contact us at <a href="mailto:ys4yune@gmail.com">ys4yune@gmail.com</a>.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
